@@ -1,0 +1,50 @@
+#header .top {
+  padding: 20px;
+  display: block;
+}
+
+#header .top a {
+  text-decoration: none;
+}
+
+#header .top a.generalPerson {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#header .top a.businessPerson {
+  font-weight: 300;
+  color: black;
+  font-size: 14px;
+}
+
+#header .top a.service {
+  font-weight: 300;
+  color: black;
+  font-size: 14px;
+}
+
+#header .top a.service i {
+  color: #EF3E42;
+}
+
+#header .top .language {
+  font-weight: 300;
+  color: black;
+  font-size: 14px;
+}
+
+#header .top .searchButton i {
+  border: 1px solid #EF3E42;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #EF3E42;
+  font-weight: bold;
+}
+
+#header .searchPage {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

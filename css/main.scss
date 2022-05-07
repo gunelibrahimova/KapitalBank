@@ -1,0 +1,48 @@
+@import "_variable.scss";
+
+
+#header{
+    .top{
+        padding: 20px;
+        display: block;
+        a{
+            text-decoration: none;
+            &.generalPerson{
+                color: $black;
+                font-weight: 600;
+                font-size: 14px;
+            }
+            &.businessPerson{
+                font-weight: 300;
+                color: $black;
+                font-size: 14px;
+            }
+            &.service{
+                font-weight: 300;
+                color: $black;
+                font-size: 14px;
+                i{
+                    color: $red;
+                }
+            }   
+        }
+        .language{
+            font-weight: 300;
+            color: $black;
+            font-size: 14px;
+        }
+        .searchButton{
+            i{
+                border: 1px solid $red;
+                padding: 5px;
+                border-radius: 5px;
+                font-size: 13px;
+                color: $red;
+                font-weight: bold;
+            }
+        }
+    }
+    .searchPage{
+        display: none;
+    }
+}
