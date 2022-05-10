@@ -4,7 +4,8 @@
 #header{
     .top{
         padding: 20px;
-        display: block;
+        display: none;
+        transition: 0.3 ease-in-out;
         a{
             text-decoration: none;
             &.generalPerson{
@@ -39,10 +40,41 @@
                 font-size: 13px;
                 color: $red;
                 font-weight: bold;
+                cursor: pointer;
             }
         }
     }
-    .searchPage{
-        display: none;
+
+}
+
+.searchPage{
+    // display: none;
+    padding: 20px;
+    background-color: #fafafa;
+    transition: 0.3s ease-in-out;
+    img{
+        padding: 7px;
+    }
+    .search{
+        font-size: 20px;
+        padding: 10px;
+    }
+    input{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 15px;
+    }
+    .axtaris{
+        text-decoration: none;
+        color: $red;
+        padding: 10px;
+    }
+    .mark{
+        background-color: grey;
+        color: white;
+        border-radius: 50%;
+        padding: 0px 3px;
+        font-size: 15px;
     }
 }

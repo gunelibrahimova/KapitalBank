@@ -15,7 +15,7 @@
 
 <body>
     <div id="header">
-        <div class="top">
+        <div id="myDIV" class="top">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-7">
@@ -48,13 +48,19 @@
             <div class="container">
                 <div class="row alingn-items-center justify-content-between">
                     <div class="col-lg-10">
-                        <img src="https://www.kapitalbank.az/assets/static/img/small-logo.svg" alt="">
-                        <i class="fa-solid fa-magnifying-glass search"></i>
-                        <input type="text" placeholder="Sorğunuzu daxil edin..." >
+                        <div class="d-flex align-items-center">
+                            <img src="https://www.kapitalbank.az/assets/static/img/small-logo.svg" alt="">
+                            <i class="fa-solid fa-magnifying-glass search"></i>
+                            <input type="text" placeholder="Sorğunuzu daxil edin..." >
+                        </div>
+                        
                     </div>
                     <div class="col-lg-2">
-                        <a href="#">Axtarış</a>
-                        <i class="fa-solid fa-xmark"></i>
+                        <div class="d-flex align-items-center">
+                            <a class="axtaris" href="#">Axtarış</a>
+                            <i style="cursor:pointer;" class="fa-solid fa-xmark mark"></i>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

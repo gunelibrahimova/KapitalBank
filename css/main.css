@@ -1,6 +1,8 @@
 #header .top {
   padding: 20px;
-  display: block;
+  display: none;
+  -webkit-transition: 0.3 ease-in-out;
+  transition: 0.3 ease-in-out;
 }
 
 #header .top a {
@@ -42,9 +44,43 @@
   font-size: 13px;
   color: #EF3E42;
   font-weight: bold;
+  cursor: pointer;
 }
 
-#header .searchPage {
-  display: none;
+.searchPage {
+  padding: 20px;
+  background-color: #fafafa;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.searchPage img {
+  padding: 7px;
+}
+
+.searchPage .search {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.searchPage input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+.searchPage .axtaris {
+  text-decoration: none;
+  color: #EF3E42;
+  padding: 10px;
+}
+
+.searchPage .mark {
+  background-color: grey;
+  color: white;
+  border-radius: 50%;
+  padding: 0px 3px;
+  font-size: 15px;
 }
 /*# sourceMappingURL=main.css.map */
