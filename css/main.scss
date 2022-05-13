@@ -1,39 +1,46 @@
 @import "_variable.scss";
 
 
-#header{
-    .top{
+#header {
+    .top {
         padding: 20px;
-        display: none;
+        
         transition: 0.3 ease-in-out;
-        a{
+
+        a {
             text-decoration: none;
-            &.generalPerson{
+
+            &.generalPerson {
                 color: $black;
                 font-weight: 600;
                 font-size: 14px;
             }
-            &.businessPerson{
+
+            &.businessPerson {
                 font-weight: 300;
                 color: $black;
                 font-size: 14px;
             }
-            &.service{
+
+            &.service {
                 font-weight: 300;
                 color: $black;
                 font-size: 14px;
-                i{
+
+                i {
                     color: $red;
                 }
-            }   
+            }
         }
-        .language{
+
+        .language {
             font-weight: 300;
             color: $black;
             font-size: 14px;
         }
-        .searchButton{
-            i{
+
+        .searchButton {
+            i {
                 border: 1px solid $red;
                 padding: 5px;
                 border-radius: 5px;
@@ -47,34 +54,100 @@
 
 }
 
-.searchPage{
-    // display: none;
+.searchPage {
+    display: none;
     padding: 20px;
     background-color: #fafafa;
     transition: 0.3s ease-in-out;
-    img{
+
+    img {
         padding: 7px;
     }
-    .search{
+
+    .search {
         font-size: 20px;
         padding: 10px;
     }
-    input{
+
+    input {
         border: none;
         outline: none;
         background-color: transparent;
         font-size: 15px;
     }
-    .axtaris{
+
+    .axtaris {
         text-decoration: none;
         color: $red;
         padding: 10px;
     }
-    .mark{
+
+    .mark {
         background-color: grey;
         color: white;
         border-radius: 50%;
         padding: 0px 3px;
         font-size: 15px;
     }
+}
+
+.section2 {
+    .top{
+        margin-top: 20px;
+        h2{
+            color: black;
+            .bold{
+                font-weight: bold;
+            }
+        }
+    }
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+
+            .box {
+                margin-top: 20px;
+                // border: 1px solid grey;
+                border-radius: 5px;
+                padding: 20px 20px 0px 20px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                transform: scale(1);
+                transition: 0.3s ease-in-out;
+                i {
+                    display: flex;
+                    justify-content: center;
+                    color: $red;
+                    font-size: 48px;
+                    margin-bottom: 10px;
+                }
+
+                .one {
+                    text-align: center;
+                    margin-left: 33px;
+                    color: white;
+                    background-color: $red;
+                    display: inline-block;
+                    padding: 3px 12px;
+                    font-size: 30px;
+                    font-weight: bold;
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    color: black;
+                    padding-bottom: 20px;
+                    .bold{
+                        font-weight: bold;
+                    }
+                }
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
 }

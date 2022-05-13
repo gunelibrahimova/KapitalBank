@@ -1,6 +1,5 @@
 #header .top {
   padding: 20px;
-  display: none;
   -webkit-transition: 0.3 ease-in-out;
   transition: 0.3 ease-in-out;
 }
@@ -48,6 +47,7 @@
 }
 
 .searchPage {
+  display: none;
   padding: 20px;
   background-color: #fafafa;
   -webkit-transition: 0.3s ease-in-out;
@@ -82,5 +82,81 @@
   border-radius: 50%;
   padding: 0px 3px;
   font-size: 15px;
+}
+
+.section2 .top {
+  margin-top: 20px;
+}
+
+.section2 .top h2 {
+  color: black;
+}
+
+.section2 .top h2 .bold {
+  font-weight: bold;
+}
+
+.section2 .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section2 .bottom a {
+  text-decoration: none;
+}
+
+.section2 .bottom a .box {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px 20px 0px 20px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.section2 .bottom a .box i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #EF3E42;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.section2 .bottom a .box .one {
+  text-align: center;
+  margin-left: 33px;
+  color: white;
+  background-color: #EF3E42;
+  display: inline-block;
+  padding: 3px 12px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.section2 .bottom a .box p {
+  color: black;
+  padding-bottom: 20px;
+}
+
+.section2 .bottom a .box p .bold {
+  font-weight: bold;
+}
+
+.section2 .bottom a .box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=main.css.map */

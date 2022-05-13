@@ -11,7 +11,7 @@ searchIcon.onclick = function(){
 
 markIcon.onclick = function(){
     document.getElementById("myDIV").style.display = "block";
-    searchPage.style.display = "none    "  
+    searchPage.style.display = "none" 
 }   
 
 
